@@ -22,11 +22,3 @@ CreateThread(function()
         Wait(msec)
     end
 end)
-
-RegisterCommand('quittarvida', function()
-    local ped = PlayerPedId()
-    local cantidad = 25 + 100
- 
-
-    SetEntityHealth(ped, cantidad)
-end)
